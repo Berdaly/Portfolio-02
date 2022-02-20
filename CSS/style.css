@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 0%;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /*border: 1px solid black;*/
+}
+.header a {
+  color: rgb(254, 253, 255);
+  text-decoration: none;
+}
+
+.main-navigation {
+  background-image: url(/image/earth.jpg);
+
+  background-position: center;
+
+  color: rgb(247, 8, 8);
+  padding: 10px 0;
+}
+
+.logo {
+  float: left;
+  color: #fff;
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+  padding-left: 400px;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  background-color: rgba(223, 8, 8, 0.4);
+}
